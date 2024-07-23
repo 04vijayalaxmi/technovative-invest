@@ -1,0 +1,357 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+.hero img{
+    height: 400px;
+    width:100%;
+    padding: 5px;
+}
+.hero .text{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top:20%;
+    transform: translate(-50%,-20%);
+}
+.text h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.search-bar{
+    width:100%;
+    max-width:800px;
+    background: rgba(2555,255,255,0.2);
+    display:flex;
+    align-items: center;
+    border-radius: 60px;
+    padding:10px 10px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    flex:1;
+    border:0;
+    outline:none;
+    padding:24px 20px;
+    font-size: 20px;
+    color:#cacf77;
+}
+.search-bar img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background: transparent;
+}
+::placeholder{
+    color:#aca77f;
+}
+.search-bar button{
+    border:0;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    background:#58629b;
+    cursor:pointer;
+}
+
+.container{
+    display: flex;
+    padding:5px;
+    margin-top: 15px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 20px;
+    text-align: left;
+
+}
+.text p{
+    margin-top: 5px;
+
+}
+.picture img{
+    height: 400px;
+    width:400px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.heading {
+    background-color: rgb(31, 31, 129);  
+    font-size: 34px;
+    color: white;
+    margin-top: 80px;
+}
+.heading h3{
+    margin-left: 80px;
+    padding-top: 30px;
+}
+.innovative-info{
+    height: 600px;
+    width:100%;
+    display: flex;
+    background-color: rgb(31, 31, 129);
+    padding-top: 40px;
+}
+.innovative-info img{
+    height: 380px;
+    width:380px;
+    border-radius: 50%;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.innovative-info p{
+color: white;
+text-align: center;
+}
+.innovative-info h2{
+color: white;
+text-align: center;
+}
+.bton button{
+    background-color: #60b0c0;
+    height: 40px;
+    width:130px;
+    border-radius: 6px;
+        margin-left: 50px;
+        margin-top: 180px;
+}
+button:hover{
+    background-color: white;
+    height: 40px;
+    width:130px;
+    border-radius: 6px;
+}
+button a{
+    text-decoration: none;
+    color:white;
+
+}
+button a:hover{
+    text-decoration: none;
+    color:#60b0c0;
+}
+.funding img{
+    width: 100%;
+    height: 100px;
+}
+.invest{
+display: flex;
+background: #FFDEAD; 
+padding-top: 50px;
+}
+.fund-opportunity{
+    background: #FFDEAD;
+    margin-top: 70px;
+    font-size: 35px;
+    
+}
+.funding img{
+    height: 300px;
+    width:300px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+.invest_text{
+    font-size: 18px;
+    margin-left: 20px;
+    text-align: left;
+    }
+.investor-text{
+    display: flex;
+       
+    width:100%;
+    background: #FFDEAD;
+
+}
+.investor img{
+    height:300px;
+    width:300px;
+    border-radius: 30px;
+    margin-left: 600px;
+}
+.invest-text{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 80px;
+    }
+.invest-text button{
+    background: #60b0c0;
+    height: 40px;
+    width:130px;
+    border-radius: 6px;
+        margin-left: 50px;
+        margin-top: 10px;
+}
+button:hover{
+    background-color: white;
+    height: 40px;
+    width:130px;
+    border-radius: 6px;
+}
+button a{
+    text-decoration: none;
+    color:white;
+
+}
+button a:hover{
+    text-decoration: none;
+    color:#60b0c0;
+}
+.resource{
+display: flex;
+
+background: #FFDEAD;
+}
+.resorce1 img{
+    height: 300px;
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.resorce-text{
+    margin-left: 40px;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 80px;
+}
+.video-pic{
+    display: flex;
+}
+.video-contain{
+    width: 950px;
+    height:534px;
+    
+    padding-top:70px ;
+    padding-left: 10px;
+}
+.pic-video img{
+    height: 400px;
+    width:400px;
+    padding-left: 4px;
+    padding-top: 70px;
+}
+.collabaration{
+    height: 400px;
+    width:100%;
+    background:black;
+    padding-top: 80px;
+    margin-top: 40px;
+    color: white;
+}
+.collabaration h1{
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 150px;
+}
+.collabaration h3{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 150px;
+}
+.collabaration form{
+    padding-left: 150px;
+}
+.collabaration input{
+    
+    height: 40px;
+    width:250px;
+    border-radius: 6px;
+        margin-left: 50px;
+        margin-top: 10px;
+        border: 0;
+}
+
+.collabaration button{
+    background-color: #60b0c0;
+    height: 40px;
+    width:130px;
+    border-radius: 6px;
+        margin-left: 50px;
+        margin-top: 10px;
+}
+button:hover{
+    background-color: white;
+    height: 40px;
+    width:130px;
+    border-radius: 6px;
+}
+button a{
+    text-decoration: none;
+    color:white;
+
+}
+button a:hover{
+    text-decoration: none;
+    color:#60b0c0;
+}
+.mentors{
+    display: flex;
+    padding-left: 30px;
+    background: gray
+    }
+    .mentor-heading{
+        font-size: 20px;
+        padding-left: 60px;
+        color: white;
+        background: gray;
+        padding-top: 20px;
+    }
+.mentors h2 {
+    text-align: left;
+    margin-left: 50px;
+    padding-left: 40px;
+    margin-top:-20px;
+    color: white;
+}
+.mentors h3{
+    text-align: left;
+    margin-left: 50px;
+    padding-left: 40px;
+    margin-top:10px;
+    color: white;
+}
+.mentors img{
+    height:390px;
+    width:390px;
+    border-radius: 50%;
+    padding: 90px;
+}
+.get{
+    font-size: 18px;
+    padding-left: 150px;
+    background: gray;
+    padding-top: 120px;
+}
+
+.get button{
+    background-color: #60b0c0;
+    height: 40px;
+    width:130px;
+    border-radius: 6px;
+        margin-left: 50px;
+        margin-top: 10px;
+}
+button:hover{
+    background-color: white;
+    height: 40px;
+    width:130px;
+    border-radius: 6px;
+}
+button a{
+    text-decoration: none;
+    color:white;
+
+}
+button a:hover{
+    text-decoration: none;
+    color:#60b0c0;
+}
